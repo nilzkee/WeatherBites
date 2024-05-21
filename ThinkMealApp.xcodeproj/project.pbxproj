@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A803CE642BFC80A100427F95 /* ThinkMealApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A803CE632BFC80A100427F95 /* ThinkMealApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A803CE692BFC80A100427F95 /* ThinkMealAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803CE682BFC80A100427F95 /* ThinkMealAppApp.swift */; };
+		A803CE6B2BFC80A100427F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803CE6A2BFC80A100427F95 /* ContentView.swift */; };
+		A803CE6D2BFC80A300427F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A803CE6C2BFC80A300427F95 /* Assets.xcassets */; };
+		A803CE702BFC80A300427F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A803CE6F2BFC80A300427F95 /* Preview Assets.xcassets */; };
+		A803CE7A2BFC80A300427F95 /* ThinkMealApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803CE792BFC80A300427F95 /* ThinkMealApp_Watch_AppTests.swift */; };
+		A803CE842BFC80A300427F95 /* ThinkMealApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803CE832BFC80A300427F95 /* ThinkMealApp_Watch_AppUITests.swift */; };
+		A803CE862BFC80A300427F95 /* ThinkMealApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803CE852BFC80A300427F95 /* ThinkMealApp_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A803CE652BFC80A100427F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A803CE572BFC80A100427F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A803CE622BFC80A100427F95;
+			remoteInfo = "ThinkMealApp Watch App";
+		};
+		A803CE762BFC80A300427F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A803CE572BFC80A100427F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A803CE622BFC80A100427F95;
+			remoteInfo = "ThinkMealApp Watch App";
+		};
+		A803CE802BFC80A300427F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A803CE572BFC80A100427F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A803CE622BFC80A100427F95;
+			remoteInfo = "ThinkMealApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A803CE8C2BFC80A300427F95 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A803CE642BFC80A100427F95 /* ThinkMealApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A803CE5D2BFC80A100427F95 /* ThinkMealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkMealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A803CE632BFC80A100427F95 /* ThinkMealApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ThinkMealApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A803CE682BFC80A100427F95 /* ThinkMealAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkMealAppApp.swift; sourceTree = "<group>"; };
+		A803CE6A2BFC80A100427F95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A803CE6C2BFC80A300427F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A803CE6F2BFC80A300427F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A803CE752BFC80A300427F95 /* ThinkMealApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThinkMealApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A803CE792BFC80A300427F95 /* ThinkMealApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkMealApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A803CE7F2BFC80A300427F95 /* ThinkMealApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ThinkMealApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A803CE832BFC80A300427F95 /* ThinkMealApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkMealApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A803CE852BFC80A300427F95 /* ThinkMealApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkMealApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A803CE602BFC80A100427F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A803CE722BFC80A300427F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A803CE7C2BFC80A300427F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A803CE562BFC80A100427F95 = {
+			isa = PBXGroup;
+			children = (
+				A803CE672BFC80A100427F95 /* ThinkMealApp Watch App */,
+				A803CE782BFC80A300427F95 /* ThinkMealApp Watch AppTests */,
+				A803CE822BFC80A300427F95 /* ThinkMealApp Watch AppUITests */,
+				A803CE5E2BFC80A100427F95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A803CE5E2BFC80A100427F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A803CE5D2BFC80A100427F95 /* ThinkMealApp.app */,
+				A803CE632BFC80A100427F95 /* ThinkMealApp Watch App.app */,
+				A803CE752BFC80A300427F95 /* ThinkMealApp Watch AppTests.xctest */,
+				A803CE7F2BFC80A300427F95 /* ThinkMealApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A803CE672BFC80A100427F95 /* ThinkMealApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A803CE682BFC80A100427F95 /* ThinkMealAppApp.swift */,
+				A803CE6A2BFC80A100427F95 /* ContentView.swift */,
+				A803CE6C2BFC80A300427F95 /* Assets.xcassets */,
+				A803CE6E2BFC80A300427F95 /* Preview Content */,
+			);
+			path = "ThinkMealApp Watch App";
+			sourceTree = "<group>";
+		};
+		A803CE6E2BFC80A300427F95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A803CE6F2BFC80A300427F95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A803CE782BFC80A300427F95 /* ThinkMealApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A803CE792BFC80A300427F95 /* ThinkMealApp_Watch_AppTests.swift */,
+			);
+			path = "ThinkMealApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A803CE822BFC80A300427F95 /* ThinkMealApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A803CE832BFC80A300427F95 /* ThinkMealApp_Watch_AppUITests.swift */,
+				A803CE852BFC80A300427F95 /* ThinkMealApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ThinkMealApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A803CE5C2BFC80A100427F95 /* ThinkMealApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A803CE8D2BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp" */;
+			buildPhases = (
+				A803CE5B2BFC80A100427F95 /* Resources */,
+				A803CE8C2BFC80A300427F95 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A803CE662BFC80A100427F95 /* PBXTargetDependency */,
+			);
+			name = ThinkMealApp;
+			productName = ThinkMealApp;
+			productReference = A803CE5D2BFC80A100427F95 /* ThinkMealApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A803CE622BFC80A100427F95 /* ThinkMealApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A803CE892BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp Watch App" */;
+			buildPhases = (
+				A803CE5F2BFC80A100427F95 /* Sources */,
+				A803CE602BFC80A100427F95 /* Frameworks */,
+				A803CE612BFC80A100427F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ThinkMealApp Watch App";
+			productName = "ThinkMealApp Watch App";
+			productReference = A803CE632BFC80A100427F95 /* ThinkMealApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A803CE742BFC80A300427F95 /* ThinkMealApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A803CE902BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp Watch AppTests" */;
+			buildPhases = (
+				A803CE712BFC80A300427F95 /* Sources */,
+				A803CE722BFC80A300427F95 /* Frameworks */,
+				A803CE732BFC80A300427F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A803CE772BFC80A300427F95 /* PBXTargetDependency */,
+			);
+			name = "ThinkMealApp Watch AppTests";
+			productName = "ThinkMealApp Watch AppTests";
+			productReference = A803CE752BFC80A300427F95 /* ThinkMealApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A803CE7E2BFC80A300427F95 /* ThinkMealApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A803CE932BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp Watch AppUITests" */;
+			buildPhases = (
+				A803CE7B2BFC80A300427F95 /* Sources */,
+				A803CE7C2BFC80A300427F95 /* Frameworks */,
+				A803CE7D2BFC80A300427F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A803CE812BFC80A300427F95 /* PBXTargetDependency */,
+			);
+			name = "ThinkMealApp Watch AppUITests";
+			productName = "ThinkMealApp Watch AppUITests";
+			productReference = A803CE7F2BFC80A300427F95 /* ThinkMealApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A803CE572BFC80A100427F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A803CE5C2BFC80A100427F95 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A803CE622BFC80A100427F95 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A803CE742BFC80A300427F95 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A803CE622BFC80A100427F95;
+					};
+					A803CE7E2BFC80A300427F95 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A803CE622BFC80A100427F95;
+					};
+				};
+			};
+			buildConfigurationList = A803CE5A2BFC80A100427F95 /* Build configuration list for PBXProject "ThinkMealApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A803CE562BFC80A100427F95;
+			productRefGroup = A803CE5E2BFC80A100427F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A803CE5C2BFC80A100427F95 /* ThinkMealApp */,
+				A803CE622BFC80A100427F95 /* ThinkMealApp Watch App */,
+				A803CE742BFC80A300427F95 /* ThinkMealApp Watch AppTests */,
+				A803CE7E2BFC80A300427F95 /* ThinkMealApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A803CE5B2BFC80A100427F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A803CE612BFC80A100427F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A803CE702BFC80A300427F95 /* Preview Assets.xcassets in Resources */,
+				A803CE6D2BFC80A300427F95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A803CE732BFC80A300427F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A803CE7D2BFC80A300427F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A803CE5F2BFC80A100427F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A803CE6B2BFC80A100427F95 /* ContentView.swift in Sources */,
+				A803CE692BFC80A100427F95 /* ThinkMealAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A803CE712BFC80A300427F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A803CE7A2BFC80A300427F95 /* ThinkMealApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A803CE7B2BFC80A300427F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A803CE862BFC80A300427F95 /* ThinkMealApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A803CE842BFC80A300427F95 /* ThinkMealApp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A803CE662BFC80A100427F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A803CE622BFC80A100427F95 /* ThinkMealApp Watch App */;
+			targetProxy = A803CE652BFC80A100427F95 /* PBXContainerItemProxy */;
+		};
+		A803CE772BFC80A300427F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A803CE622BFC80A100427F95 /* ThinkMealApp Watch App */;
+			targetProxy = A803CE762BFC80A300427F95 /* PBXContainerItemProxy */;
+		};
+		A803CE812BFC80A300427F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A803CE622BFC80A100427F95 /* ThinkMealApp Watch App */;
+			targetProxy = A803CE802BFC80A300427F95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A803CE872BFC80A300427F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A803CE882BFC80A300427F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A803CE8A2BFC80A300427F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThinkMealApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ThinkMealApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eat.ThinkMealApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A803CE8B2BFC80A300427F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThinkMealApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ThinkMealApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eat.ThinkMealApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		A803CE8E2BFC80A300427F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				INFOPLIST_KEY_CFBundleDisplayName = ThinkMealApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eat.ThinkMealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A803CE8F2BFC80A300427F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				INFOPLIST_KEY_CFBundleDisplayName = ThinkMealApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Eat.ThinkMealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A803CE912BFC80A300427F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eat.ThinkMealApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkMealApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThinkMealApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A803CE922BFC80A300427F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eat.ThinkMealApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkMealApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThinkMealApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		A803CE942BFC80A300427F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eat.ThinkMealApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ThinkMealApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		A803CE952BFC80A300427F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AYW736K4Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eat.ThinkMealApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ThinkMealApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A803CE5A2BFC80A100427F95 /* Build configuration list for PBXProject "ThinkMealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A803CE872BFC80A300427F95 /* Debug */,
+				A803CE882BFC80A300427F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A803CE892BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A803CE8A2BFC80A300427F95 /* Debug */,
+				A803CE8B2BFC80A300427F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A803CE8D2BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A803CE8E2BFC80A300427F95 /* Debug */,
+				A803CE8F2BFC80A300427F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A803CE902BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A803CE912BFC80A300427F95 /* Debug */,
+				A803CE922BFC80A300427F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A803CE932BFC80A300427F95 /* Build configuration list for PBXNativeTarget "ThinkMealApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A803CE942BFC80A300427F95 /* Debug */,
+				A803CE952BFC80A300427F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A803CE572BFC80A100427F95 /* Project object */;
+}
