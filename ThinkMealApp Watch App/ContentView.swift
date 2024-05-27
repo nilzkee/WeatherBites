@@ -11,7 +11,7 @@ import ClockKit
 
 
 struct ContentView: View {
-    @StateObject var locationManager = LocationManager()
+//    @StateObject var locationManager = LocationManager()
 
     var body: some View {
         Home()

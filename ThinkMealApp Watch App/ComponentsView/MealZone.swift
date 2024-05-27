@@ -43,11 +43,11 @@ class RectangleViewModel: ObservableObject {
             selectRectangle(rectangleData[0])
         case 10..<12:
             selectRectangle(rectangleData[1])
-        case 12..<16:
+        case 12..<15:
             selectRectangle(rectangleData[2])
-        case 16..<19:
+        case 15..<18:
             selectRectangle(rectangleData[3])
-        case 19..<24:
+        case 18..<24:
             selectRectangle(rectangleData[4])
         default:
             break
