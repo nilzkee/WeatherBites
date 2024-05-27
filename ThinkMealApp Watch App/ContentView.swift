@@ -6,16 +6,18 @@
 //
 
 import SwiftUI
+import Foundation
+import ClockKit
+
 
 struct ContentView: View {
+    @StateObject var locationManager = LocationManager()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Home()
+        
+//        RecommendationView()
+//        WeatherView(viewModel: WeatherViewModel(weatherService: WeatherService()))
     }
 }
 
