@@ -20,9 +20,9 @@ struct WeatherView: View {
                     Circle()
                         .fill(Color.gray.opacity(0.3))
 
-                    Text(viewModel.weatherIcon)
-                        .font(.system(size:20))
-                        .padding()
+                    Image(systemName: viewModel.weatherIcon)
+                        .frame(width: 12, height: 12)
+                        .foregroundColor(.orange)
                 }
                 .frame(width: 40, height: 40)
                 

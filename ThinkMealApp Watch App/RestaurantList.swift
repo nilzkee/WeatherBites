@@ -11,21 +11,21 @@ struct RestaurantList: View {
     var body: some View {
         List {
             ForEach(0..<10) { index in
-                NavigationLink(destination: RestaurantList()) {
+                Link(destination: URL(string: "http://maps.apple.com/?ll=37.7749,-122.4194")!) {
                     ZStack {
                         Rectangle()
                             .fill(Color(red: 0.36, green: 0.15, blue: 0.1))
-                            .frame(height: 83)
+                            .frame(height: 80)
                             .cornerRadius(10)
                             .shadow(radius: 5)
+                            .clipped()
                 
-                        
-                        VStack (alignment: .leading){
+                        VStack(alignment: .leading) {
                             Text("Restaurant \(index + 1)")
                                 .foregroundColor(.white)
                             
                             HStack {
-                                VStack (alignment: .leading) {
+                                VStack(alignment: .leading) {
                                     Text("12 km")
                                         .font(Font.custom("SF Compact", size: 17))
                                         .foregroundColor(Color(red: 1, green: 0.58, blue: 0))
@@ -43,13 +43,16 @@ struct RestaurantList: View {
                                     .frame(width: 19, height: 20, alignment: .topLeading)
                             }
                         }
+                        .padding()
                     }
                 }
             }
+            .listRowInsets(EdgeInsets())
         }
         .listStyle(PlainListStyle())
     }
 }
+
 
 
 #Preview {

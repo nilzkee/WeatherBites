@@ -33,7 +33,7 @@ struct PickMeal: View {
                     .frame(width: 180, height: 145)
                 }
                 .listRowInsets(EdgeInsets()) // Remove row insets
-                .navigationTitle("Meal For You")
+                .navigationTitle(weatherViewModel.weatherTag + " Day Meals")
             }
             .listStyle(.carousel)
         } detail: {

@@ -8,14 +8,14 @@
 import Foundation
 import CoreLocation
 
-private let defaultIcon = "􀅍"
+private let defaultIcon = "questionmark"
 private let iconMap = [
-    "Drizzle" : "􀇅",
-    "Thunderstorm" : "􀇟",
-    "Rain" : "􀇇",
-    "Snow" : "􀇏",
-    "Clear" : "􀆮",
-    "Clouds" : "􀇃"
+    "Drizzle" : "cloud.drizzle.fill",
+    "Thunderstorm" : "cloud.bolt.rain.fill",
+    "Rain" : "cloud.rain.fill",
+    "Snow" : "cloud.snow.fill",
+    "Clear" : "sun.max.fill",
+    "Clouds" : "cloud.fill"
 ]
 
 class WeatherViewModel: ObservableObject {
