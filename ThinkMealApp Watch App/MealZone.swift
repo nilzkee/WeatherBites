@@ -55,7 +55,7 @@ class RectangleViewModel: ObservableObject {
     }
 }
 
-struct CobaZoneLagi: View {
+struct MealZone: View {
     @ObservedObject var viewModel: RectangleViewModel
     @State private var triangleOffset: CGFloat = 0
     @State private var timer: Timer?
@@ -115,8 +115,6 @@ struct CobaZoneLagi: View {
                 timer?.invalidate()
             }
         }
-//        .navigationBarTitle("")
-//        .navigationBarHidden(true)
     }
     
     private func calculateTriangleOffset(selectedData: RectangleData) -> CGFloat {
@@ -132,7 +130,7 @@ struct CobaZoneLagi: View {
 }
 
 #Preview {
-    CobaZoneLagi(viewModel: RectangleViewModel(rectangleData: [
+    MealZone(viewModel: RectangleViewModel(rectangleData: [
         RectangleData(darkColor: Color(red: 0.12, green: 0.24, blue: 0.35), lightColor: .blue, width: 18, height: 60, labelText: "Find\nBreakfast", trianglePosition: -40),
         RectangleData(darkColor: Color(red: 0.36, green: 0.33, blue: 0.1), lightColor: .green, width: 18, height: 60, labelText: "Find\nSnack", trianglePosition: -20),
         RectangleData(darkColor: Color(red: 0.35, green: 0.2, blue: 0.07), lightColor: .yellow, width: 18, height: 60, labelText: "Find\nLunch", trianglePosition: 0),

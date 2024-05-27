@@ -30,7 +30,7 @@ struct RecommendationView: View {
                     }
                     .frame(width: 180, height: 145)
                 }
-                .listRowInsets(EdgeInsets()) // Remove row insets
+                .listRowInsets(EdgeInsets())
                 .navigationTitle("Meal For You")
             }
             .listStyle(.carousel)

@@ -16,8 +16,6 @@ struct ContentView: View {
     var body: some View {
         Home()
         
-//        RecommendationView()
-//        WeatherView(viewModel: WeatherViewModel(weatherService: WeatherService()))
     }
 }
 

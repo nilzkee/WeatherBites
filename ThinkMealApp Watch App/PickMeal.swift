@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct PickMeal: View {
-    @ObservedObject var weatherViewModel: WeatherViewModel // Observe weather view model
+    @ObservedObject var weatherViewModel: WeatherViewModel
     
     var body: some View {
         NavigationSplitView {
@@ -32,7 +32,7 @@ struct PickMeal: View {
                     }
                     .frame(width: 180, height: 145)
                 }
-                .listRowInsets(EdgeInsets()) // Remove row insets
+                .listRowInsets(EdgeInsets()) 
                 .navigationTitle(weatherViewModel.weatherTag + " Day Meals")
             }
             .listStyle(.carousel)
@@ -44,7 +44,7 @@ struct PickMeal: View {
         }
     }
     
-    // Filtered meals based on current weather tag
+    // Filter meals berdasarkan current weather tag
     var filteredMeals: [Meal] {
         MockData.sampleMeals.filter { meal in
             meal.weatherTags.contains(weatherViewModel.weatherTag)

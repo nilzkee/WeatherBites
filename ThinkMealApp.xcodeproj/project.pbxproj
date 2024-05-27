@@ -24,7 +24,7 @@
 		A87E518E2BFFD1B100776830 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E518D2BFFD1B100776830 /* LocationView.swift */; };
 		A87E519B2C01061500776830 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E519A2C01061500776830 /* WeatherView.swift */; };
 		A88996572BFCA52400226101 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88996562BFCA52400226101 /* Home.swift */; };
-		A889965D2BFCAA0A00226101 /* CobaZoneLagi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889965C2BFCAA0A00226101 /* CobaZoneLagi.swift */; };
+		A889965D2BFCAA0A00226101 /* MealZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A889965C2BFCAA0A00226101 /* MealZone.swift */; };
 		A8A39A162C02EDF100EC5A16 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A39A152C02EDF100EC5A16 /* WeatherViewModel.swift */; };
 		A8D19E922C0380D5000C0F35 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D19E912C0380D5000C0F35 /* WeatherService.swift */; };
 		A8D19E942C0382D1000C0F35 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D19E932C0382D1000C0F35 /* Weather.swift */; };
@@ -93,7 +93,7 @@
 		A87E518F2BFFDB3700776830 /* ThinkMealApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ThinkMealApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A87E519A2C01061500776830 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		A88996562BFCA52400226101 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		A889965C2BFCAA0A00226101 /* CobaZoneLagi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobaZoneLagi.swift; sourceTree = "<group>"; };
+		A889965C2BFCAA0A00226101 /* MealZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealZone.swift; sourceTree = "<group>"; };
 		A8A39A152C02EDF100EC5A16 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		A8D19E912C0380D5000C0F35 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		A8D19E932C0382D1000C0F35 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				A803CE682BFC80A100427F95 /* ThinkMealAppApp.swift */,
 				A803CE6A2BFC80A100427F95 /* ContentView.swift */,
 				A88996562BFCA52400226101 /* Home.swift */,
-				A889965C2BFCAA0A00226101 /* CobaZoneLagi.swift */,
+				A889965C2BFCAA0A00226101 /* MealZone.swift */,
 				A803CE9A2BFC9B3100427F95 /* PickMeal.swift */,
 				A87E51772BFDED6800776830 /* RestaurantList.swift */,
 				A8D19E912C0380D5000C0F35 /* WeatherService.swift */,
@@ -384,7 +384,7 @@
 				A87E518C2BFFD18A00776830 /* LocationManager.swift in Sources */,
 				A8D19EA02C03BF82000C0F35 /* ViewModel.swift in Sources */,
 				A803CE692BFC80A100427F95 /* ThinkMealAppApp.swift in Sources */,
-				A889965D2BFCAA0A00226101 /* CobaZoneLagi.swift in Sources */,
+				A889965D2BFCAA0A00226101 /* MealZone.swift in Sources */,
 				A8D19E942C0382D1000C0F35 /* Weather.swift in Sources */,
 				A87E518E2BFFD1B100776830 /* LocationView.swift in Sources */,
 				A87E51782BFDED6800776830 /* RestaurantList.swift in Sources */,
@@ -560,7 +560,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ThinkMealApp-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ThinkMealApp;
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherBites;
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app requires location access to show your current location and weather";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires location access to show your current location and weather";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -593,7 +593,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ThinkMealApp-Watch-App-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = ThinkMealApp;
+				INFOPLIST_KEY_CFBundleDisplayName = WeatherBites;
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app requires location access to show your current location and weather";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires location access to show your current location and weather";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";

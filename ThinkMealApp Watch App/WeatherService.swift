@@ -26,9 +26,6 @@ public final class WeatherService: NSObject {
     }
     
     
-    
-    // https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
-    
     private func makeDataRequest(forCoordinates coordinates: CLLocationCoordinate2D) {
         guard let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(coordinates.latitude)&lon=\(coordinates.longitude)&appid=\(API_KEY)&units=metric"
             .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
@@ -62,7 +59,6 @@ extension WeatherService: CLLocationManagerDelegate {
     
 }
 
-//Three structures represent JSON map
 struct APIResponse: Decodable {
     let name: String
     let main: APIMain

@@ -29,7 +29,7 @@ struct Home: View {
                 
                 WeatherView(viewModel: WeatherViewModel(weatherService: WeatherService()))
                 
-                CobaZoneLagi(viewModel: RectangleViewModel(rectangleData: [
+                MealZone(viewModel: RectangleViewModel(rectangleData: [
                     RectangleData(darkColor: Color(red: 0.12, green: 0.24, blue: 0.35), lightColor: .blue, width: 18, height: 60, labelText: "Find\nBreakfast", trianglePosition: -40),
                     RectangleData(darkColor: Color(red: 0.36, green: 0.33, blue: 0.1), lightColor: .green, width: 18, height: 60, labelText: "Find\nSnack", trianglePosition: -20),
                     RectangleData(darkColor: Color(red: 0.35, green: 0.2, blue: 0.07), lightColor: .yellow, width: 18, height: 60, labelText: "Find\nLunch", trianglePosition: 0),

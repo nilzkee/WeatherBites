@@ -48,12 +48,7 @@ struct WeatherView: View {
                 
                 Spacer()
 
-            }
-            
-//            
-//            Text(viewModel.weatherDescription)
-//                .font(.title)
-            
+            }            
         }.onAppear(perform: viewModel.refresh)
     }
 }
